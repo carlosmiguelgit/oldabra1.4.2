@@ -1,0 +1,10 @@
+Menu = 104, 104, 957, 524, Z, 78, 78, 931, 498, C
+ModAddress = 0, 0, 0, 0, C
+ModBase = 0, 0, 0, 0, C
+ModFunction = 0, 0, 0, 0, C
+ModSettings = 0, 0, 0, 0, C
+ModDefaults = 0, 0, 0, 0, C
+ModLight = 0, 0, 0, 0, C
+frmDebug = 0, 0, 0, 0, C, 26, 26, 879, 446, C
+frmCavebot = 0, 0, 0, 0, C, 52, 52, 905, 472, C
+ModMacro = 0, 0, 0, 0, C
