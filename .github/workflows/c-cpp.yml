@@ -10,18 +10,14 @@ on:
 
 jobs:
   build:
-    name: Compile on Windows
+    name: Build TFS
     runs-on: windows-latest
 
-    defaults:
-      run:
-        shell: pwsh
-
     steps:
-      - name: Checkout repository
+      - name: Checkout source
         uses: actions/checkout@v4
 
-      - name: Install dependencies with vcpkg
+      - name: Install dependencies
         run: |
           vcpkg install boost-iostreams:x64-windows
           vcpkg install boost-filesystem:x64-windows
@@ -35,19 +31,21 @@ jobs:
           vcpkg install pugixml:x64-windows
           vcpkg install mpir:x64-windows
           vcpkg install spdlog:x64-windows
+          vcpkg integrate install
 
-      - name: Set up MSBuild path
+      - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v2
 
-      - name: Build the solution
+      - name: Build solution (Release x64)
         run: |
-          msbuild vc17/themodernserver.sln /p:Configuration=Release /p:Platform=x64
+          $env:VCPKG_ROOT="C:\vcpkg"
+          msbuild vc17/themodernserver.sln /p:Configuration=Release /p:Platform=x64 /p:VcpkgTriplet=x64-windows
 
-      - name: Archive executable
+      - name: Archive .exe and .dll
         run: |
-          Compress-Archive -Path vc17\*.exe -DestinationPath OT.zip
+          Compress-Archive -Path vc17\*.exe, vc17\*.dll -DestinationPath OT.zip
 
-      - name: Upload .exe as artifact
+      - name: Upload build
         uses: actions/upload-artifact@v4
         with:
           name: OT Build
