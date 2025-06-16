@@ -10596,7 +10596,7 @@
 	</spawn>
 	<spawn centerx="32160" centery="31926" centerz="7" radius="5">
 		<monster name="pig" x="-1" y="-2" z="7" spawntime="60" />
-		<monster name="pig" x="-1" y="0" z="7" spawntime="9000" />
+		<monster name="pig" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32552" centery="31926" centerz="7" radius="1">
 		<monster name="poison spider" x="1" y="1" z="7" spawntime="60" />
@@ -12936,7 +12936,7 @@
 		<monster name="Blue Butterfly" x="2" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32368" centery="32215" centerz="7" radius="1">
-		<npc name="Aruda" x="0" y="1" z="7" spawntime="10" />
+		<npc name="Aruda" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32467" centery="32215" centerz="7" radius="1">
 		<monster name="snake" x="1" y="0" z="7" spawntime="60" />
@@ -19394,7 +19394,7 @@
 		<monster name="poison spider" x="0" y="0" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="31297" centery="31126" centerz="8" radius="1">
-		<monster name="rat" x="0" y="0" z="8" spawntime="60" />
+			<monster name="rat" x="0" y="0" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="31306" centery="31126" centerz="8" radius="1">
 		<monster name="rat" x="0" y="0" z="8" spawntime="60" />
