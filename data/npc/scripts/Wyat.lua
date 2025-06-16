@@ -39,13 +39,12 @@ local shopModule = ShopModule:new()
 npcHandler:addModule(shopModule)
 
 
-shopModule:addSellableItem({'life crystal'}, 					Cflifecrystal, 450)
-shopModule:addSellableItem({'ankh'}, 					Cfankh, 100)
-shopModule:addSellableItem({'small oil lamp'}, 					Cfsmalloillamp, 270)
-shopModule:addSellableItem({'frozen starlight'}, 					Cffrozenstarlight, 9500)
-shopModule:addSellableItem({'mind stone'}, 					Cfmindstone, 200)
-
-shopModule:addSellableItem({'gold ring'}, 					Cfgoldring, 8000)
+shopModule:addSellableItem({'life crystal'}, 2177, 450)
+shopModule:addSellableItem({'ankh'}, 2193, 100)
+shopModule:addSellableItem({'small oil lamp'}, 2931, 270)
+shopModule:addSellableItem({'frozen starlight'}, 2361, 9500)
+shopModule:addSellableItem({'mind stone'}, 2178, 200)
+shopModule:addSellableItem({'gold ring'}, 2179, 8000)
 
 keywordHandler:addKeyword({'silver guard'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = "They are our elite forces."})
 keywordHandler:addKeyword({'red guard'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = "Most of the red guards serve as cityguards, some work for the TBI though."})

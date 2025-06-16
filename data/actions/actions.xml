@@ -10,6 +10,9 @@
 	<!-- Market -->
 	<action itemid="14405" function="market" />
 
+
+	<action actionid="8000" script="quest.lua"/>
+
 	<!-- Quests -->
 	<action itemid="1740" script="quests/quests.lua" />
 	<action fromid="1747" toid="1749" script="quests/quests.lua" />

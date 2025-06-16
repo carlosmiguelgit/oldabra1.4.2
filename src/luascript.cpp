@@ -14384,7 +14384,7 @@ int LuaScriptInterface::luaLootSetId(lua_State* L)
 			}
 
 			if (std::next(ids.first) != ids.second) {
-				std::cout << "[Warning - Loot:setId] Non-unique loot item \"" << name << "\". " << std::endl;
+				
 				pushBoolean(L, false);
 				return 1;
 			}

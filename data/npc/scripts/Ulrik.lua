@@ -13,12 +13,12 @@ function onThink() 						npcHandler:onThink() end
 local shopModule = ShopModule:new()
 npcHandler:addModule(shopModule)
 
-shopModule:addBuyableItem({'longsword'}, 					Cflongsword, 160)
-shopModule:addBuyableItem({'battle hammer'}, 					Cfbattlehammer, 350)
-shopModule:addBuyableItem({'battle axe'}, 					Cfbattleaxe, 235)
-shopModule:addBuyableItem({'scale armor'}, 					Cfscalearmor, 260)
-shopModule:addBuyableItem({'soldier helmet'}, 					Cfsoldierhelmet, 110)
-shopModule:addBuyableItem({'steel shield'}, 					Cfsteelshield, 240)
+shopModule:addBuyableItem({'longsword'}, 2397, 160)
+shopModule:addBuyableItem({'battle hammer'}, 2417, 350)
+shopModule:addBuyableItem({'battle axe'}, 2378, 235)
+shopModule:addBuyableItem({'scale armor'}, 2483, 260)
+shopModule:addBuyableItem({'soldier helmet'}, 2481, 110)
+shopModule:addBuyableItem({'steel shield'}, 2509, 240)
 
 keywordHandler:addKeyword({'job'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = "I am a smith. Do you need anything I make?"})
 keywordHandler:addKeyword({'shop'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = "I am a smith. Do you need anything I make?"})

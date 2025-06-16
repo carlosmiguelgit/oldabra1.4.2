@@ -15,15 +15,15 @@ function onThink() 						npcHandler:onThink() end
 local shopModule = ShopModule:new()
 npcHandler:addModule(shopModule)
 
-shopModule:addBuyableItem({'lemonade'}, 					Cfmug, 2, 5, 'mug of lemonade')
-shopModule:addBuyableItem({'beer'}, 					Cfmug, 2, 3, 'mug of beer')
-shopModule:addBuyableItem({'wine'}, 					Cfmug, 3, 15, 'mug of wine')
-shopModule:addBuyableItem({'water'}, 					Cfmug, 1, 1, 'mug of water')
+shopModule:addBuyableItem({'lemonade'}, 2012, 2, 5, 'mug of lemonade') -- type 5 = lemonade
+shopModule:addBuyableItem({'beer'}, 2012, 2, 3, 'mug of beer')         -- type 3 = beer
+shopModule:addBuyableItem({'wine'}, 2012, 3, 15, 'mug of wine')        -- type 15 = wine
+shopModule:addBuyableItem({'water'}, 2012, 1, 1, 'mug of water')       -- type 1 = water
 
-shopModule:addBuyableItem({'cheese'}, 					Cfcheese, 6, 1, 'cheese')
-shopModule:addBuyableItem({'meat'}, 					Cfmeat, 5, 1, 'meat')
-shopModule:addBuyableItem({'ham'}, 					Cfham, 8, 1, 'ham')
-shopModule:addBuyableItem({'bread'}, 					Cfbread, 4, 1, 'bread')
+shopModule:addBuyableItem({'cheese'}, 2696, 6, 1, 'cheese')
+shopModule:addBuyableItem({'meat'}, 2666, 5, 1, 'meat')
+shopModule:addBuyableItem({'ham'}, 2671, 8, 1, 'ham')
+shopModule:addBuyableItem({'bread'}, 2689, 4, 1, 'bread')
 
 keywordHandler:addKeyword({'job'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = "I am the owner of this tavern, which is known far beyond Edron."})
 keywordHandler:addKeyword({'tavern'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = "I am the owner of this tavern, which is known far beyond Edron."})

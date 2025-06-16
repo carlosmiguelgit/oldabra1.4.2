@@ -1391,7 +1391,7 @@ bool Monsters::loadLootItem(const pugi::xml_node& node, LootBlock& lootBlock)
 		uint32_t id = ids.first->second;
 
 		if (std::next(ids.first) != ids.second) {
-			std::cout << "[Warning - Monsters::loadMonster] Non-unique loot item \"" << name << "\". " << std::endl;
+		
 			return false;
 		}
 
