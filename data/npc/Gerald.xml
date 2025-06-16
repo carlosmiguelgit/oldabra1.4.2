@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Gerald" script="data/npc/scripts/trainingweaponsseller.lua" walkinterval="2000" floorchange="1">
+<npc name="Gerald" script="trainingweaponsseller.lua" walkinterval="2000" floorchange="1">
     <health now="100" max="100"/>
     <look type="801" head="96" body="108" legs="105" feet="115" addons="3"/>
     <parameters>

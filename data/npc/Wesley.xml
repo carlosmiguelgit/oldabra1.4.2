@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Wesley" script="data/npc/scripts/expbuy.lua" walkinterval="2000" floorchange="1">
+<npc name="Wesley" script="expbuy.lua" walkinterval="2000" floorchange="1">
     <health now="100" max="100"/>
     <look type="692" head="96" body="102" legs="105" feet="115" addons="3"/>
     <parameters>
