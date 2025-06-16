@@ -1,4 +1,4 @@
-name: Build TFS 1.4.2 for Windows
+name: Build TFS for Windows
 
 on:
   push:
@@ -10,8 +10,12 @@ on:
 
 jobs:
   build:
-    name: Build on Windows
+    name: Compile on Windows
     runs-on: windows-latest
+
+    defaults:
+      run:
+        shell: pwsh
 
     steps:
       - name: Checkout repository
@@ -32,18 +36,22 @@ jobs:
           vcpkg install mpir:x64-windows
           vcpkg install spdlog:x64-windows
 
-      - name: Build The Modern Server (Release x64)
-        run: msbuild vc17/themodernserver.sln /p:Configuration=Release /p:Platform=x64
+      - name: Set up MSBuild path
+        uses: microsoft/setup-msbuild@v2
 
-      - name: Zip Build Artifacts
+      - name: Build the solution
         run: |
-          7z a -tzip TMS.zip -r .\vc17\*.exe .\vc17\*.dll
+          msbuild vc17/themodernserver.sln /p:Configuration=Release /p:Platform=x64
 
-      - name: Upload Build Artifacts
+      - name: Archive executable
+        run: |
+          Compress-Archive -Path vc17\*.exe -DestinationPath OT.zip
+
+      - name: Upload .exe as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: TheModernServer Build
+          name: OT Build
           path: |
-            vc17/**/*.exe
-            vc17/**/*.dll
-            TMS.zip
+            vc17/*.exe
+            vc17/*.dll
+            OT.zip
