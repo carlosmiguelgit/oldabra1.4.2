@@ -1,34 +1,57 @@
-name: Build TFS 1.4.2 on Windows
+name: Build TFS for Windows
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'vc17/**'
+      - '.github/workflows/**'
   workflow_dispatch:
 
 jobs:
   build:
-    name: Build on Windows
-    runs-on: windows-2019
+    name: Compile on Windows
+    runs-on: windows-latest
+
+    defaults:
+      run:
+        shell: pwsh
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
-      - name: Install premake5
-        run: choco install premake5 --yes
+      - name: Install dependencies with vcpkg
+        run: |
+          vcpkg install boost-iostreams:x64-windows
+          vcpkg install boost-filesystem:x64-windows
+          vcpkg install boost-asio:x64-windows
+          vcpkg install boost-system:x64-windows
+          vcpkg install boost-variant:x64-windows
+          vcpkg install boost-lockfree:x64-windows
+          vcpkg install cryptopp:x64-windows
+          vcpkg install luajit:x64-windows
+          vcpkg install libmariadb:x64-windows
+          vcpkg install pugixml:x64-windows
+          vcpkg install mpir:x64-windows
+          vcpkg install spdlog:x64-windows
 
-      - name: Generate Visual Studio project files
-        run: premake5 vs2019
+      - name: Set up MSBuild path
+        uses: microsoft/setup-msbuild@v2
 
-      - name: Build solution
-        run: msbuild builds/vc16/theforgottenserver.sln /p:Configuration=Release /m
+      - name: Build the solution
+        run: |
+          msbuild vc17/themodernserver.sln /p:Configuration=Release /p:Platform=x64
 
-      - name: Upload theforgottenserver.exe
+      - name: Archive executable
+        run: |
+          Compress-Archive -Path vc17\*.exe -DestinationPath OT.zip
+
+      - name: Upload .exe as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: theforgottenserver
-          path: builds/vc16/Release/theforgottenserver.exe
+          name: OT Build
+          path: |
+            vc17/*.exe
+            vc17/*.dll
+            OT.zip
