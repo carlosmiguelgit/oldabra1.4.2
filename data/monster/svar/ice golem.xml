@@ -27,9 +27,6 @@
 		<attack name="speed" interval="2000" chance="18" length="8" spread="0" speedchange="-220" duration="5000">
 		<attribute key="areaEffect" value="icearea"/>
 		</attack>	
-		<attack name="skills" interval="2000" chance="18" radius="3" target="0" shielding="-1" axe="-1" club="-1" sword="-1" fist="-1" distance="-1">
-		<attribute key="areaEffect" value="icearea"/>
-		</attack>	
 
 	</attacks>
 	<defenses armor="25" defense="26"/>

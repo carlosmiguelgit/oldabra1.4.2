@@ -298,8 +298,8 @@ if NpcHandler == nil then
 
 	-- Changes the default response message with the specified id to newMessage.
 	function NpcHandler:setMessage(id, newMessage)
-		if self.messages then
-			self.messages[id] = newMessage
+	if self.messages and id then
+		self.messages[id] = newMessage
 		end
 	end
 
