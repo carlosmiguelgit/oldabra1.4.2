@@ -13,11 +13,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install vcpkg dependencies
-        run: |
-          ./vcpkg install --triplet x64-windows boost-iostreams boost-asio boost-system boost-variant boost-lockfree boost-locale boost-beast boost-json luajit libmariadb pugixml openssl fmt zlib
+      - name: Clone vcpkg
+        run: git clone https://github.com/microsoft/vcpkg.git
 
-      - name: Patch source (fix io_service)
+      - name: Bootstrap vcpkg
+        run: .\vcpkg\bootstrap-vcpkg.bat
+
+      - name: Install dependencies with vcpkg
+        run: |
+          .\vcpkg\vcpkg.exe install boost-iostreams:x64-windows boost-asio:x64-windows boost-system:x64-windows boost-variant:x64-windows boost-lockfree:x64-windows boost-locale:x64-windows boost-beast:x64-windows boost-json:x64-windows luajit:x64-windows libmariadb:x64-windows pugixml:x64-windows openssl:x64-windows fmt:x64-windows zlib:x64-windows
+
+      - name: Patch io_service to io_context
         shell: powershell
         run: |
           Get-ChildItem -Path src -Recurse -Include *.cpp,*.h | ForEach-Object {
@@ -28,10 +34,10 @@ jobs:
       - name: Build solution in Release mode
         run: msbuild vc17/themodernserver.sln /p:Configuration=Release /p:Platform=x64
 
-      - name: Upload binaries
+      - name: Upload compiled files
         uses: actions/upload-artifact@v4
         with:
-          name: tfs-binaries
+          name: server-build
           path: |
             vc17/**/*.exe
             vc17/**/*.dll
