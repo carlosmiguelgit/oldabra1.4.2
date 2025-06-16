@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <npc name="Amber" script="amber.lua" walkinterval="1000" access="3" floorchange="0">
-	<health now="100" max="100"/>
-	<look type="137" head="59" body="113" legs="132" feet="76"/>
+	<health now="100" max="100" />
+	<look type="137" head="59" body="113" legs="132" feet="76" />
   <parameters>
   
     <parameter key="message_greet" value="Oh hello, nice to see you |PLAYERNAME|." />
@@ -43,8 +43,8 @@
 	<parameter key="keyword_reply31" value="If you travel to Thais, you really should visit the marvelous castle." />
 	<parameter key="keyword_reply32" value="Not the nicest guys you can encounter. I had some clashes with them and was prisoner of the orcs for some months." />
 	
-	<parameter key="module_shop" value="1"/>
-	<parameter key="shop_buyable" value=""/>	
+	<parameter key="module_shop" value="1" />
+	<parameter key="shop_buyable" value=";" />	
 		
   </parameters>
 </npc>

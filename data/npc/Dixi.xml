@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <npc name="Dixi" script="rook_items.lua" walkinterval="1000" access="3" floorchange="0">
-    <health now="100" max="100"/>
-    <look type="136" head="96" body="99" legs="76" feet="115" addons="0"/>
+    <health now="100" max="100" />
+    <look type="136" head="96" body="99" legs="76" feet="115" addons="0" />
     <parameters>
         
-        <parameter key="message_greet" value="Good day, Sir. How may I help you, |PLAYERNAME|? If you like to see my offers."/>
-		<parameter key="message_farewell" value="Good bye, Sir."/>
+        <parameter key="message_greet" value="Good day, Sir. How may I help you, |PLAYERNAME|? If you like to see my offers." />
+		<parameter key="message_farewell" value="Good bye, Sir." />
 		
         <parameter key="module_keywords" value="1" />
         <parameter key="keywords" value="how are you;selling;job;name;help;stuff;wares;offer;weapons;armors;helmets;shields;equipment;do you sell;do you have;pick" />
@@ -27,8 +27,8 @@
         <parameter key="keyword_reply15" value="What do you need? We sell weapons, armor, helmets, shields, and equipment." />
 		<parameter key="keyword_reply16" value="I am sorry, an agent of Al Dee bought all our picks. Now he has a monopoly on them." />
 		
-        <parameter key="module_shop" value="1"/>
-        <parameter key="shop_buyable" value="" />
+        <parameter key="module_shop" value="1" />
+        <parameter key="shop_buyable" value=";" />
         <parameter key="shop_sellable" value="" />
     </parameters>
 </npc>

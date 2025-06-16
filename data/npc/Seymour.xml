@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <npc name="Seymour" script="seymour.lua" walkinterval="1000" access="3" floorchange="0">
-    <health now="100" max="100"/>
-    <look type="128" head="115" body="69" legs="87" feet="116" addons="0"/>
+    <health now="100" max="100" />
+    <look type="128" head="115" body="69" legs="87" feet="116" addons="0" />
     <parameters>
         
         <parameter key="message_greet" value="Hello, |PLAYERNAME|. What do you need?" /> 
@@ -55,8 +55,8 @@
 		<parameter key="keyword_reply37" value="Oh, how I miss the crowded streets of Thais. I know one day I will get promoted and get a job at the castle... I must get out of here! The faster the better! It is people like you who are driving me mad." />
 		<parameter key="keyword_reply38" value="The castle of Thais is the greatest achievement in Tibian history." />
 
-        <parameter key="module_shop" value="1"/>
-        <parameter key="shop_buyable" value="" />
+        <parameter key="module_shop" value="1" />
+        <parameter key="shop_buyable" value=";" />
         <parameter key="shop_sellable" value="dead rat,2813,2" />
     </parameters>
 </npc>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <npc name="Bonifacius" script="default.lua" walkinterval="2000" floorchange="0">
-    <health now="100" max="100"/>
-    <look type="128" head="59" body="82" legs="58" feet="95"/>
+    <health now="100" max="100" />
+    <look type="128" head="59" body="82" legs="58" feet="95" />
     <parameters>
 	
-		<parameter key="message_greet" value="Thousands greetings, |PLAYERNAME|. How may I help you?"/>
-		<parameter key="message_farewell" value="May the gods bless your travels."/>
-		<parameter key="message_placedinqueue" value="I am deeply sorry, I am busy right now. I'll tell you when I'm done |PLAYERNAME|."/>
-		<parameter key="message_decline" value="May the gods bless your travels."/>
+		<parameter key="message_greet" value="Thousands greetings, |PLAYERNAME|. How may I help you?" />
+		<parameter key="message_farewell" value="May the gods bless your travels." />
+		<parameter key="message_placedinqueue" value="I am deeply sorry, I am busy right now. I'll tell you when I'm done |PLAYERNAME|." />
+		<parameter key="message_decline" value="May the gods bless your travels." />
 		
 		<parameter key="module_keywords" value="1" />
         <parameter key="keywords" value="name;job;king;tibianus;army;ferumbras;excalibug;thais;tibia;carlin;edron;news;rumors;buy;offer;food;fruit" />
@@ -29,8 +29,8 @@
 		<parameter key="keyword_reply16" value="I can offer you meat, salmons, fruits, cookies, rolls, eggs, and cheese." />
 		<parameter key="keyword_reply17" value="I have oranges, bananas, grapes, pumpkins and melons. What do you want?" />
         
-		<parameter key="module_shop" value="1"/>
-        <parameter key="shop_buyable" value="meat,2666,4;salmon,2668,4;orange,2675,5;banana,2676,2;grapes,2681,3;melon,2682,8;pumpkin,2683,10;roll,2690,2;egg,2695,2;cheese,2696,5" />
+		<parameter key="module_shop" value="1" />
+        <parameter key="shop_buyable" value="meat,2666,4;salmon,2668,4;orange,2675,5;banana,2676,2;grapes,2681,3;melon,2682,8;pumpkin,2683,10;roll,2690,2;egg,2695,2;cheese,2696,5;" />
         <parameter key="shop_sellable" value="" />
     
     </parameters>

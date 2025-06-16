@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <npc name="Cipfried" script="healer_cipfried.lua" walkinterval="1000" access="3" floorchange="0">
-    <health now="100" max="100"/>
-    <look type="57" head="0" body="0" legs="0" feet="0" addons="0"/>
+    <health now="100" max="100" />
+    <look type="57" head="0" body="0" legs="0" feet="0" addons="0" />
     <parameters>
         
-        <parameter key="message_greet" value="Hello, |PLAYERNAME|! Feel free to ask me for help."/>
-		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|!"/>
+        <parameter key="message_greet" value="Hello, |PLAYERNAME|! Feel free to ask me for help." />
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|!" />
         
         <parameter key="module_keywords" value="1" />
         <parameter key="keywords" value="job;name;monk;tibia;rookgaard;god;life;plant;citizen;obi;al dee;seymour;academy;willie;monster;help;hint;quest;task;what do;gold;money;rat;sewer;equipment;fight;slay;eat;food;time" />
@@ -41,8 +41,8 @@
         <parameter key="keyword_reply29" value="If you want to heal your wounds you should eat something. Willie sells excellent meals. But if you are very weak, come to me and ask me to heal you." />
         <parameter key="keyword_reply30" value="Now, it is |TIME|, my child." />
 
-        <parameter key="module_shop" value="1"/>
-        <parameter key="shop_buyable" value="" />
+        <parameter key="module_shop" value="1" />
+        <parameter key="shop_buyable" value=";" />
         <parameter key="shop_sellable" value="" />
     </parameters>
 </npc>
