@@ -1,66 +1,45 @@
-name: Build TFS 1.4.2
+name: Build TFS 1.4.2 (Windows)
 
 on:
   push:
-    paths:
-      - '**.cpp'
-      - '**.h'
-      - '**.hpp'
-      - '**.yml'
-      - 'vc17/**'
+    branches: [ main ]
   pull_request:
-    paths:
-      - '**.cpp'
-      - '**.h'
-      - '**.hpp'
-      - '**.yml'
-      - 'vc17/**'
+    branches: [ main ]
 
 jobs:
   build:
-    runs-on: windows-2022
-
-    strategy:
-      matrix:
-        configuration: [Release, Debug]
+    runs-on: windows-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v4
 
-      - name: Setup vcpkg
-        uses: lukka/run-vcpkg@v11
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
 
-      - name: Install dependencies via vcpkg
-        run: |
-          vcpkg install boost-iostreams:x64-windows
-          vcpkg install boost-filesystem:x64-windows
-          vcpkg install boost-asio:x64-windows
-          vcpkg install boost-system:x64-windows
-          vcpkg install boost-variant:x64-windows
-          vcpkg install boost-lockfree:x64-windows
-          vcpkg install cryptopp:x64-windows
-          vcpkg install luajit:x64-windows
-          vcpkg install libmariadb:x64-windows
-          vcpkg install pugixml:x64-windows
-          vcpkg install mpir:x64-windows
-          vcpkg install spdlog:x64-windows
+    - name: Install vcpkg dependencies
+      run: |
+        vcpkg install boost-iostreams:x64-windows
+        vcpkg install boost-filesystem:x64-windows
+        vcpkg install boost-asio:x64-windows
+        vcpkg install boost-system:x64-windows
+        vcpkg install boost-variant:x64-windows
+        vcpkg install boost-lockfree:x64-windows
+        vcpkg install cryptopp:x64-windows
+        vcpkg install luajit:x64-windows
+        vcpkg install libmariadb:x64-windows
+        vcpkg install pugixml:x64-windows
+        vcpkg install mpir:x64-windows
+        vcpkg install spdlog:x64-windows
 
-      - name: Configure MSBuild
-        uses: microsoft/setup-msbuild@v2
+    - name: Build TFS in Release
+      run: |
+        msbuild OT.sln /p:Configuration=Release /p:Platform=x64
 
-      - name: Build TFS
-        run: msbuild vc17/theforgottenserver.sln /p:Configuration=${{ matrix.configuration }} /p:Platform=x64
-
-      - name: Zip build
-        run: |
-          7z a -tzip ot.zip .\vc17\${{ matrix.configuration }}\ot.exe .\vc17\${{ matrix.configuration }}\*.dll
-
-      - name: Upload executable
-        uses: actions/upload-artifact@v4
-        with:
-          name: ot-${{ matrix.configuration }}
-          path: |
-            vc17\${{ matrix.configuration }}\ot.exe
-            vc17\${{ matrix.configuration }}\*.dll
-            ot.zip
+    - name: Upload binaries
+      uses: actions/upload-artifact@v4
+      with:
+        name: tfs-binaries
+        path: |
+          **\Release\*.exe
+          **\Release\*.dll
