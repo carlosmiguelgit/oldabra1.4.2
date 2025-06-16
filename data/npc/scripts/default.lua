@@ -9,9 +9,4 @@ function onCreatureSay(cid, type, msg) 	npcHandler:onCreatureSay(cid, type, msg)
 function onThink() 						npcHandler:onThink() end
 -- OTServ event handling functions end
 
-local shopModule = ShopModule:new()
-npcHandler:addModule(shopModule)
-shopModule:addSellableItem({'axe'}, 2386, 7, 'axe')
-shopModule:addBuyableItem({'axe'}, 2386, 20, 'axe')
-
 npcHandler:addModule(FocusModule:new())
