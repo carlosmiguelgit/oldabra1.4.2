@@ -1,55 +1,37 @@
-name: Build TFS for Windows
+name: Build TFS 1.4.2 on Windows
 
 on:
   push:
-    paths:
-      - 'src/**'
-      - 'vc17/**'
-      - '.github/workflows/**'
-  workflow_dispatch:
+    branches: [main]
+  pull_request:
 
 jobs:
   build:
-    name: Build TFS
     runs-on: windows-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install vcpkg dependencies
         run: |
-          vcpkg install boost-iostreams:x64-windows
-          vcpkg install boost-filesystem:x64-windows
-          vcpkg install boost-asio:x64-windows
-          vcpkg install boost-system:x64-windows
-          vcpkg install boost-variant:x64-windows
-          vcpkg install boost-lockfree:x64-windows
-          vcpkg install cryptopp:x64-windows
-          vcpkg install luajit:x64-windows
-          vcpkg install libmariadb:x64-windows
-          vcpkg install pugixml:x64-windows
-          vcpkg install mpir:x64-windows
-          vcpkg install spdlog:x64-windows
-          vcpkg integrate install
+          ./vcpkg install --triplet x64-windows boost-iostreams boost-asio boost-system boost-variant boost-lockfree boost-locale boost-beast boost-json luajit libmariadb pugixml openssl fmt zlib
 
-      - name: Setup MSBuild
-        uses: microsoft/setup-msbuild@v2
-
-      - name: Build solution (Release x64)
+      - name: Patch source (fix io_service)
+        shell: powershell
         run: |
-          $env:VCPKG_ROOT="C:\vcpkg"
-          msbuild vc17/themodernserver.sln /p:Configuration=Release /p:Platform=x64 /p:VcpkgTriplet=x64-windows
+          Get-ChildItem -Path src -Recurse -Include *.cpp,*.h | ForEach-Object {
+            (Get-Content $_.FullName) -replace 'boost::asio::io_service', 'boost::asio::io_context' |
+            Set-Content $_.FullName
+          }
 
-      - name: Archive .exe and .dll
-        run: |
-          Compress-Archive -Path vc17\*.exe, vc17\*.dll -DestinationPath OT.zip
+      - name: Build solution in Release mode
+        run: msbuild vc17/themodernserver.sln /p:Configuration=Release /p:Platform=x64
 
-      - name: Upload build
+      - name: Upload binaries
         uses: actions/upload-artifact@v4
         with:
-          name: OT Build
+          name: tfs-binaries
           path: |
-            vc17/*.exe
-            vc17/*.dll
-            OT.zip
+            vc17/**/*.exe
+            vc17/**/*.dll
