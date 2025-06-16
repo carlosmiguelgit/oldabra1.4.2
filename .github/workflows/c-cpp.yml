@@ -1,45 +1,49 @@
-name: Build TFS 1.4.2 (Windows)
+name: Build TFS 1.4.2 for Windows
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'vc17/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
 
 jobs:
   build:
+    name: Build on Windows
     runs-on: windows-latest
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v2
+      - name: Install dependencies with vcpkg
+        run: |
+          vcpkg install boost-iostreams:x64-windows
+          vcpkg install boost-filesystem:x64-windows
+          vcpkg install boost-asio:x64-windows
+          vcpkg install boost-system:x64-windows
+          vcpkg install boost-variant:x64-windows
+          vcpkg install boost-lockfree:x64-windows
+          vcpkg install cryptopp:x64-windows
+          vcpkg install luajit:x64-windows
+          vcpkg install libmariadb:x64-windows
+          vcpkg install pugixml:x64-windows
+          vcpkg install mpir:x64-windows
+          vcpkg install spdlog:x64-windows
 
-    - name: Install vcpkg dependencies
-      run: |
-        vcpkg install boost-iostreams:x64-windows
-        vcpkg install boost-filesystem:x64-windows
-        vcpkg install boost-asio:x64-windows
-        vcpkg install boost-system:x64-windows
-        vcpkg install boost-variant:x64-windows
-        vcpkg install boost-lockfree:x64-windows
-        vcpkg install cryptopp:x64-windows
-        vcpkg install luajit:x64-windows
-        vcpkg install libmariadb:x64-windows
-        vcpkg install pugixml:x64-windows
-        vcpkg install mpir:x64-windows
-        vcpkg install spdlog:x64-windows
+      - name: Build The Modern Server (Release x64)
+        run: msbuild vc17/themodernserver.sln /p:Configuration=Release /p:Platform=x64
 
-    - name: Build TFS in Release
-      run: |
-        msbuild OT.sln /p:Configuration=Release /p:Platform=x64
+      - name: Zip Build Artifacts
+        run: |
+          7z a -tzip TMS.zip -r .\vc17\*.exe .\vc17\*.dll
 
-    - name: Upload binaries
-      uses: actions/upload-artifact@v4
-      with:
-        name: tfs-binaries
-        path: |
-          **\Release\*.exe
-          **\Release\*.dll
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: TheModernServer Build
+          path: |
+            vc17/**/*.exe
+            vc17/**/*.dll
+            TMS.zip
