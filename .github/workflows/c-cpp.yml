@@ -1,34 +1,66 @@
-name: Build TFS 1.4.2 on Windows
+name: Build TFS 1.4.2
 
 on:
   push:
-    branches: [ main ]
+    paths:
+      - '**.cpp'
+      - '**.h'
+      - '**.hpp'
+      - '**.yml'
+      - 'vc17/**'
   pull_request:
-    branches: [ main ]
-  workflow_dispatch:
+    paths:
+      - '**.cpp'
+      - '**.h'
+      - '**.hpp'
+      - '**.yml'
+      - 'vc17/**'
 
 jobs:
   build:
-    name: Build on Windows
-    runs-on: windows-2019
+    runs-on: windows-2022
+
+    strategy:
+      matrix:
+        configuration: [Release, Debug]
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
-      - name: Install premake5
-        run: choco install premake5 --yes
+      - name: Setup vcpkg
+        uses: lukka/run-vcpkg@v11
 
-      - name: Generate Visual Studio project files
-        run: premake5 vs2019
+      - name: Install dependencies via vcpkg
+        run: |
+          vcpkg install boost-iostreams:x64-windows
+          vcpkg install boost-filesystem:x64-windows
+          vcpkg install boost-asio:x64-windows
+          vcpkg install boost-system:x64-windows
+          vcpkg install boost-variant:x64-windows
+          vcpkg install boost-lockfree:x64-windows
+          vcpkg install cryptopp:x64-windows
+          vcpkg install luajit:x64-windows
+          vcpkg install libmariadb:x64-windows
+          vcpkg install pugixml:x64-windows
+          vcpkg install mpir:x64-windows
+          vcpkg install spdlog:x64-windows
 
-      - name: Build solution
-        run: msbuild builds/vc16/theforgottenserver.sln /p:Configuration=Release /m
+      - name: Configure MSBuild
+        uses: microsoft/setup-msbuild@v2
 
-      - name: Upload theforgottenserver.exe
+      - name: Build TFS
+        run: msbuild vc17/theforgottenserver.sln /p:Configuration=${{ matrix.configuration }} /p:Platform=x64
+
+      - name: Zip build
+        run: |
+          7z a -tzip ot.zip .\vc17\${{ matrix.configuration }}\ot.exe .\vc17\${{ matrix.configuration }}\*.dll
+
+      - name: Upload executable
         uses: actions/upload-artifact@v4
         with:
-          name: theforgottenserver
-          path: builds/vc16/Release/theforgottenserver.exe
+          name: ot-${{ matrix.configuration }}
+          path: |
+            vc17\${{ matrix.configuration }}\ot.exe
+            vc17\${{ matrix.configuration }}\*.dll
+            ot.zip
