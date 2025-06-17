@@ -8,7 +8,7 @@
 	<action itemid="24739" script="other/enchanting.lua" />
 
 	<!-- Market -->
-	<action itemid="14405" function="market" />
+	<action itemid="8478" function="market" />
 
 
 	<action actionid="8000" script="quest.lua"/>

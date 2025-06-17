@@ -14698,10 +14698,7 @@
 	<!-- Armas treino Fim-->
 
 	<!-- Food infinita -->
-	<item id="8478" name="Magical Macaroon">
-		<attribute key="description" value="Infinite food."/>
-		<attribute key="weight" value="3000"/>
-		<attribute key="showcount" value="0"/>
-	</item>	
+	<item id="8478" article="the" name="market" />
+	<item id="8524" name="your inbox" />
 		
 </items>
