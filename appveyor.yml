@@ -26,26 +26,34 @@ only_commits:
 
 install:
   - cmd: chcp 65001 > nul
-  - cmd: vcpkg install boost-iostreams
-  - cmd: vcpkg install boost-asio
-  - cmd: vcpkg install boost-system
-  - cmd: vcpkg install boost-filesystem
-  - cmd: vcpkg install boost-variant
-  - cmd: vcpkg install boost-lockfree
-  - cmd: vcpkg install cryptopp
-  - cmd: vcpkg install fmt
-  - cmd: vcpkg install luajit
-  - cmd: vcpkg install --recurse libmariadb
-  - cmd: vcpkg install pugixml
+  - cmd: vcpkg install boost-iostreams:x64-windows
+  - cmd: vcpkg install boost-asio:x64-windows
+  - cmd: vcpkg install boost-system:x64-windows
+  - cmd: vcpkg install boost-filesystem:x64-windows
+  - cmd: vcpkg install boost-variant:x64-windows
+  - cmd: vcpkg install boost-lockfree:x64-windows
+  - cmd: vcpkg install cryptopp:x64-windows
+  - cmd: vcpkg install fmt:x64-windows
+  - cmd: vcpkg install luajit:x64-windows
+  - cmd: vcpkg install --recurse libmariadb:x64-windows
+  - cmd: vcpkg install pugixml:x64-windows
 
 build_script:
-  - cmd: msbuild vc17/themodernserver.sln /p:Configuration=%CONFIGURATION% /p:Platform=%PLATFORM% /p:PreferredToolArchitecture=x64
+  - cmd: msbuild vc17/themodernserver.sln /p:Configuration=%CONFIGURATION% /p:Platform=%PLATFORM% /p:PreferredToolArchitecture=x64 /p:AdditionalOptions="/utf-8"
 
 cache:
   - c:\tools\vcpkg\installed\
 
 after_build:
-  - cmd: 7z a -tzip tfs-win-%PLATFORM%-%CONFIGURATION%.zip -r %APPVEYOR_BUILD_FOLDER%\vc14\%PLATFORM%\%CONFIGURATION%\*.dll %APPVEYOR_BUILD_FOLDER%\vc14\%PLATFORM%\%CONFIGURATION%\theforgottenserver*.exe %APPVEYOR_BUILD_FOLDER%\data %APPVEYOR_BUILD_FOLDER%\config.lua.dist %APPVEYOR_BUILD_FOLDER%\key.pem %APPVEYOR_BUILD_FOLDER%\LICENSE %APPVEYOR_BUILD_FOLDER%\README.md %APPVEYOR_BUILD_FOLDER%\schema.sql
+  - cmd: 7z a -tzip tfs-win-%PLATFORM%-%CONFIGURATION%.zip -r ^
+      %APPVEYOR_BUILD_FOLDER%\vc14\%PLATFORM%\%CONFIGURATION%\*.dll ^
+      %APPVEYOR_BUILD_FOLDER%\vc14\%PLATFORM%\%CONFIGURATION%\theforgottenserver*.exe ^
+      %APPVEYOR_BUILD_FOLDER%\data ^
+      %APPVEYOR_BUILD_FOLDER%\config.lua.dist ^
+      %APPVEYOR_BUILD_FOLDER%\key.pem ^
+      %APPVEYOR_BUILD_FOLDER%\LICENSE ^
+      %APPVEYOR_BUILD_FOLDER%\README.md ^
+      %APPVEYOR_BUILD_FOLDER%\schema.sql
 
 artifacts:
   - path: vc14\%PLATFORM%\%CONFIGURATION%\theforgottenserver*.exe

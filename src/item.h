@@ -296,7 +296,7 @@ class ItemAttributes
 			if (!propStream.readString(tmp)) {
 				return false;
 			}
-			value = VariantAttribute(tmp);
+			value = boost::variant<boost::blank, std::string, int64_t, double, bool>(tmp);
 			break;
 		}
 
@@ -305,7 +305,7 @@ class ItemAttributes
 			if (!propStream.read<int64_t>(tmp)) {
 				return false;
 			}
-			value = VariantAttribute(tmp);
+			value = boost::variant<boost::blank, std::string, int64_t, double, bool>(tmp);
 			break;
 		}
 
@@ -314,7 +314,7 @@ class ItemAttributes
 			if (!propStream.read<double>(tmp)) {
 				return false;
 			}
-			value = VariantAttribute(tmp);
+			value = boost::variant<boost::blank, std::string, int64_t, double, bool>(tmp);
 			break;
 		}
 
@@ -323,7 +323,7 @@ class ItemAttributes
 			if (!propStream.read<bool>(tmp)) {
 				return false;
 			}
-			value = VariantAttribute(tmp);
+			value = boost::variant<boost::blank, std::string, int64_t, double, bool>(tmp);
 			break;
 		}
 
