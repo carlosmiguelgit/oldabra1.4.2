@@ -938,7 +938,7 @@ elseif item.uid == 8057 then
 		return TRUE
 		end
 		doPlayerSendTextMessage(cid,22,"You have found two elephant tusks.")
-		doPlayerAddItem(cid, Cfelephanttusks, 2)
+		doPlayerAddItem(cid, 3956, 2)
 		setPlayerStorageValue(cid,8057,1)
 		
 	else
@@ -1067,7 +1067,7 @@ elseif item.uid == 8065 then
 		return TRUE
 		end
 		doPlayerSendTextMessage(cid,22,"You have found an explorer brooch")
-		doPlayerAddItem(cid, Cfexplorerbrooch, 1)
+		doPlayerAddItem(cid, 4873, 1)
 		setPlayerStorageValue(cid,8065,1)
 		
 	else
@@ -1120,7 +1120,7 @@ elseif item.uid == 8068 then
 		BAG = doPlayerAddItem(cid, 1987, 1)
 		doAddContainerItem(BAG, 2145, 7)
 		doAddContainerItem(BAG, 2201, 200)
-		doAddContainerItem(BAG, RCfringofhealing, 1)
+		doAddContainerItem(BAG, 2214, 1)
 		setPlayerStorageValue(cid,8068,1)
 		
 	else
@@ -2241,7 +2241,7 @@ elseif item.uid == 8146 then
 		return TRUE
 		end
 		doPlayerSendTextMessage(cid,22,"You have found a crystal ball.")
-		doPlayerAddItem(cid, Cfcrystallball, 1)
+		doPlayerAddItem(cid, 2191, 1)
 		setPlayerStorageValue(cid,8146,1)
 	else
 	doPlayerSendTextMessage(cid,22,"it's empty.")
@@ -2407,7 +2407,7 @@ elseif item.uid == 8159 then
 		return TRUE
 		end
 		doPlayerSendTextMessage(cid,22,"You have found the holy tible.")
-		THEHOLYTIBLE = doPlayerAddItem(cid, Cftheholytible, 1)
+		THEHOLYTIBLE = doPlayerAddItem(cid, 1970, 1)
 		doSetItemText(THEHOLYTIBLE, "Banor I praise your name.\nBe with me in the battle.\nBe my shield, let me be your sword.\nI will honour the godly spark in my soul.\nMay it flourish and grow.")
 		setPlayerStorageValue(cid,8159,1)
 		
@@ -2557,7 +2557,7 @@ elseif item.uid == 8183 then
 		return TRUE
 		end
 		doPlayerSendTextMessage(cid,22,"You have found an avenger!")
-		doPlayerAddItem(cid, Cfavanger, 1)
+		doPlayerAddItem(cid, 5518, 1)
 		setPlayerStorageValue(cid,8182,1)
 	else
 	doPlayerSendTextMessage(cid,22,"it's empty.")
@@ -2598,7 +2598,7 @@ elseif item.uid == 8186 then
 		return TRUE
 		end
 		doPlayerSendTextMessage(cid,22,"You have found a pair of soft boots!")
-		doPlayerAddItem(cid, Cfsoftboots, 1)
+		doPlayerAddItem(cid, 2640, 1)
 		setPlayerStorageValue(cid,8186,1)
 		
 	else
@@ -2655,7 +2655,7 @@ elseif item.uid == 8190 then
 		return TRUE
 		end
 		doPlayerSendTextMessage(cid,22,"You have found a ceremonial ankh!")
-		doPlayerAddItem(cid, Cfceremonialankh, 1)
+		doPlayerAddItem(cid, 5807, 1)
 		setPlayerStorageValue(cid,8190,1)
 	else
 	doPlayerSendTextMessage(cid,22,"it's empty.")
@@ -2723,6 +2723,7 @@ elseif item.uid == 8202 then
 	else
 	doPlayerSendTextMessage(cid,22,"it's empty.")
 	end
+
 --Phoenix Egg
 elseif item.uid == 8203 then
 	if getPlayerStorageValue(cid,8203) <= 0 then
@@ -2753,6 +2754,7 @@ elseif item.uid == 8206 then
 	else
 	doPlayerSendTextMessage(cid,22,"it's empty.")
 	end
+	
 --Piece 2
 elseif item.uid == 8207 then
 	if getPlayerStorageValue(cid,8207) <= 0 then

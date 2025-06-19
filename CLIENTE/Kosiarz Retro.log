@@ -1,32 +1,13 @@
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+GPU Mesa Intel(R) HD Graphics 4000 (IVB GT2) (Intel)
+OpenGL 4.2 (Compatibility Profile) Mesa 25.0.3-1ubuntu2
 [Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Desktop/otserver/kosiarzclient/'
-== application started at Jun 15 2025 10:29:57
+Found work dir at 'Z:/home/note/√Årea de trabalho/oldabra142/CLIENTE/'
+== application started at Jun 17 2025 01:05:13
 Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
 ERROR: Layour retro doesn't exist, using default
 Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5500 bytes, 3180 unread, last opcode is 0x78 (120), prev opcode is 0x79 (121)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5377 bytes, 3101 unread, last opcode is 0x78 (120), prev opcode is 0x79 (121)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1245' two times
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5507 bytes, 3180 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Desktop/otserver/kosiarzclient/'
-== application started at Jun 15 2025 10:30:24
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
 Connecting to: 127.0.0.1:7171
 Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5393 bytes, 3101 unread, last opcode is 0x78 (120), prev opcode is 0x79 (121)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
 ERROR: protected lua call failed: /modules/game_store/store.lua:451: attempt to index a nil value
 stack traceback:
 	[C]: in function '__index'
@@ -35,18 +16,231 @@ stack traceback:
 	/modules/game_inventory/inventory.otui:282: [@onClick]:2: in function </modules/game_inventory/inventory.otui:282: [@onClick]:1>
 Connecting to: 127.0.0.1:7171
 Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5507 bytes, 3180 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1245' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Exiting application..
+WARNING: attempt to destroy widget 'widget18' two times
+WARNING: widget 'widget571' was not explicitly destroyed
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/oldabra142/CLIENTE/'
+== application started at Jun 17 2025 01:19:49
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Exiting application..
+ERROR: unable to open file for writing '': permission denied
+WARNING: attempt to destroy widget 'widget18' two times
+WARNING: widget 'widget571' was not explicitly destroyed
+WARNING: widget 'widget1270' was not explicitly destroyed
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/oldabra142/CLIENTE/'
+== application started at Jun 17 2025 01:20:01
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Connecting to: 127.0.0.1:7171
+Exiting application..
+ERROR: unable to open file for writing '': permission denied
+WARNING: attempt to destroy widget 'widget18' two times
+WARNING: widget 'widget571' was not explicitly destroyed
+WARNING: widget 'widget1270' was not explicitly destroyed
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/oldabra142/CLIENTE/'
+== application started at Jun 17 2025 02:00:55
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
 Connecting to: 127.0.0.1:7171
 Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (9348 bytes, 3101 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
+Login to 127.0.0.1:7172
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/oldabra142/CLIENTE/'
+== application started at Jun 17 2025 02:02:16
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Exiting application..
+WARNING: attempt to destroy widget 'widget18' two times
+WARNING: widget 'widget571' was not explicitly destroyed
+WARNING: widget 'widget1244' was not explicitly destroyed
+Login to 127.0.0.1:7172
+ERROR: protected lua call failed: /modules/game_store/store.lua:451: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_store/store.lua:451: in function 'show'
+	/modules/game_store/store.lua:444: in function 'toggle'
+	/modules/game_inventory/inventory.otui:282: [@onClick]:2: in function </modules/game_inventory/inventory.otui:282: [@onClick]:1>
+Exiting application..
+WARNING: attempt to destroy widget 'widget18' two times
+WARNING: widget 'widget571' was not explicitly destroyed
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/TMS142/CLIENTE/'
+== application started at Jun 17 2025 11:44:49
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: ProtocolGame parse message exception (5157 bytes, 2773 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 8276
 Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1245' two times
 Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8479 bytes, 3101 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
+ERROR: ProtocolGame parse message exception (4954 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 8276
 Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1245' two times
+Exiting application..
+WARNING: attempt to destroy widget 'widget18' two times
+WARNING: widget 'widget571' was not explicitly destroyed
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/TMS142/CLIENTE/'
+== application started at Jun 17 2025 12:01:11
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+ERROR: protected lua call failed: /modules/game_store/store.lua:451: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_store/store.lua:451: in function 'show'
+	/modules/game_store/store.lua:444: in function 'toggle'
+	/modules/game_inventory/inventory.otui:282: [@onClick]:2: in function </modules/game_inventory/inventory.otui:282: [@onClick]:1>
+ERROR: protected lua call failed: /modules/game_inventory/inventory.otui:292: [@onClick]:2: attempt to index field 'game_exph' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_inventory/inventory.otui:292: [@onClick]:2: in function </modules/game_inventory/inventory.otui:292: [@onClick]:1>
+ERROR: protected lua call failed: /modules/game_inventory/inventory.otui:292: [@onClick]:2: attempt to index field 'game_exph' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_inventory/inventory.otui:292: [@onClick]:2: in function </modules/game_inventory/inventory.otui:292: [@onClick]:1>
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+ERROR: protected lua call failed: /modules/game_store/store.lua:451: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_store/store.lua:451: in function 'show'
+	/modules/game_store/store.lua:444: in function 'toggle'
+	/modules/game_inventory/inventory.otui:282: [@onClick]:2: in function </modules/game_inventory/inventory.otui:282: [@onClick]:1>
+Exiting application..
+WARNING: attempt to destroy widget 'widget18' two times
+WARNING: widget 'widget571' was not explicitly destroyed
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/TMS142/CLIENTE/'
+== application started at Jun 17 2025 13:15:58
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+Exiting application..
+WARNING: attempt to destroy widget 'widget18' two times
+WARNING: widget 'widget571' was not explicitly destroyed
+WARNING: widget 'widget1244' was not explicitly destroyed
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/TMS142/CLIENTE/'
+== application started at Jun 17 2025 17:00:25
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/TMS142/CLIENTE/'
+== application started at Jun 17 2025 17:04:49
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: failed to save OTMM minimap: rename: ViolaÁ„o de compartilhamento.: "C:\users\note\AppData\Roaming\OTClientV8\Kosiarz Retro\/minimap1098.otmm.tmp", "C:\users\note\AppData\Roaming\OTClientV8\Kosiarz Retro\/minimap1098.otmm"
+WARNING: attempt to destroy widget 'widget1244' two times
 Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
@@ -82,9 +276,6 @@ Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8003 bytes, 3101 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1245' two times
 Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
@@ -98,11 +289,1976 @@ Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8003 bytes, 3101 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1245' two times
 Login to 127.0.0.1:7172
 Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+ERROR: failed to save OTMM minimap: rename: ViolaÁ„o de compartilhamento.: "C:\users\note\AppData\Roaming\OTClientV8\Kosiarz Retro\/minimap1098.otmm.tmp", "C:\users\note\AppData\Roaming\OTClientV8\Kosiarz Retro\/minimap1098.otmm"
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+ERROR: failed to save OTMM minimap: rename: ViolaÁ„o de compartilhamento.: "C:\users\note\AppData\Roaming\OTClientV8\Kosiarz Retro\/minimap1098.otmm.tmp", "C:\users\note\AppData\Roaming\OTClientV8\Kosiarz Retro\/minimap1098.otmm"
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+ERROR: failed to save OTMM minimap: rename: ViolaÁ„o de compartilhamento.: "C:\users\note\AppData\Roaming\OTClientV8\Kosiarz Retro\/minimap1098.otmm.tmp", "C:\users\note\AppData\Roaming\OTClientV8\Kosiarz Retro\/minimap1098.otmm"
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+WARNING: attempt to destroy widget 'widget1244' two times
+WARNING: attempt to destroy widget 'widget1244' two times
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/TMS142/CLIENTE/'
+== application started at Jun 17 2025 19:39:14
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'Z:/home/note/√Årea de trabalho/TMS142/CLIENTE/'
+== application started at Jun 17 2025 20:13:12
+Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+ERROR: Layour retro doesn't exist, using default
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: could not get creature
+at:
+	[C++]: ?parseCreatureType@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: could not get creature
+at:
+	[C++]: ?parseCreatureType@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: protected lua call failed: /modules/game_store/store.lua:451: attempt to index a nil value
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_store/store.lua:451: in function 'show'
+	/modules/game_store/store.lua:444: in function 'toggle'
+	/modules/game_inventory/inventory.otui:282: [@onClick]:2: in function </modules/game_inventory/inventory.otui:282: [@onClick]:1>
+ERROR: protected lua call failed: /modules/game_inventory/inventory.otui:292: [@onClick]:2: attempt to index field 'game_exph' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_inventory/inventory.otui:292: [@onClick]:2: in function </modules/game_inventory/inventory.otui:292: [@onClick]:1>
+ERROR: protected lua call failed: /modules/game_inventory/inventory.otui:292: [@onClick]:2: attempt to index field 'game_exph' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/game_inventory/inventory.otui:292: [@onClick]:2: in function </modules/game_inventory/inventory.otui:292: [@onClick]:1>
+Exiting application..
+WARNING: attempt to destroy widget 'widget18' two times
+WARNING: widget 'widget572' was not explicitly destroyed
 Login to 127.0.0.1:7172
 Exiting application..
 WARNING: attempt to destroy widget 'widget18' two times
@@ -110,338 +2266,39 @@ WARNING: widget 'widget572' was not explicitly destroyed
 GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
 OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
 [Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Desktop/otserver/kosiarzclient/'
-== application started at Jun 15 2025 11:34:03
+Found work dir at 'Z:/home/note/√Årea de trabalho/TMS142/CLIENTE/'
+== application started at Jun 17 2025 21:49:33
 Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
 ERROR: Layour retro doesn't exist, using default
 Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (6263 bytes, 3101 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8690 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1245' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8690 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1245' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8223 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1245' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
+Connecting to: 127.0.0.1:7171
 Login to 127.0.0.1:7172
 Exiting application..
 WARNING: attempt to destroy widget 'widget18' two times
 WARNING: widget 'widget572' was not explicitly destroyed
+WARNING: widget 'widget1245' was not explicitly destroyed
 GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
 OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
 [Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Desktop/TMS-main/CLIENTE/'
-== application started at Jun 15 2025 11:59:40
+Found work dir at 'Z:/home/note/√Årea de trabalho/TMS142/CLIENTE/'
+== application started at Jun 17 2025 22:05:49
 Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
 ERROR: Layour retro doesn't exist, using default
 Connecting to: 127.0.0.1:7171
-Connecting to: 127.0.0.1:7171
-Connecting to: 127.0.0.1:7171
 Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8223 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (7241 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
 Exiting application..
 WARNING: attempt to destroy widget 'widget18' two times
 WARNING: widget 'widget572' was not explicitly destroyed
+WARNING: widget 'widget1245' was not explicitly destroyed
 GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
 OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
 [Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Desktop/TMS-main/CLIENTE/'
-== application started at Jun 15 2025 13:07:58
+Found work dir at 'C:/Users/Note/Desktop/TMS142/CLIENTE/'
+== application started at Jun 18 2025 11:26:31
 Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
 ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (6187 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (9138 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1246' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (9138 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1246' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (9138 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1246' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (9138 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1246' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8920 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1246' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (7687 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1246' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (7687 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1246' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (7687 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1246' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (7687 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-WARNING: attempt to destroy widget 'widget1246' two times
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (7687 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Documents/GitHub/oldabra1.4.2/CLIENTE/'
-== application started at Jun 15 2025 17:28:26
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (9212 bytes, 2694 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
 Exiting application..
+ERROR: unable to open file for writing '/settings/questlog.json': not found
 WARNING: attempt to destroy widget 'widget18' two times
-WARNING: widget 'widget573' was not explicitly destroyed
-WARNING: widget 'widget1246' was not explicitly destroyed
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Documents/GitHub/oldabra1.4.2/CLIENTE/'
-== application started at Jun 15 2025 17:32:57
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8466 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Exiting application..
-WARNING: attempt to destroy widget 'widget18' two times
-WARNING: widget 'widget573' was not explicitly destroyed
-WARNING: widget 'widget1246' was not explicitly destroyed
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Documents/GitHub/oldabra1.4.2/CLIENTE/'
-== application started at Jun 15 2025 17:50:41
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5437 bytes, 391 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Exiting application..
-WARNING: attempt to destroy widget 'widget18' two times
-WARNING: widget 'widget573' was not explicitly destroyed
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Documents/GitHub/oldabra1.4.2/CLIENTE/'
-== application started at Jun 15 2025 17:56:27
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (7879 bytes, 2641 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Exiting application..
-WARNING: attempt to destroy widget 'widget18' two times
-WARNING: widget 'widget573' was not explicitly destroyed
-WARNING: widget 'widget1246' was not explicitly destroyed
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Documents/GitHub/oldabra1.4.2/CLIENTE/'
-== application started at Jun 15 2025 18:20:44
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5362 bytes, 391 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Exiting application..
-WARNING: attempt to destroy widget 'widget18' two times
-WARNING: widget 'widget573' was not explicitly destroyed
-WARNING: widget 'widget1246' was not explicitly destroyed
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Documents/GitHub/oldabra1.4.2/CLIENTE/'
-== application started at Jun 15 2025 18:21:34
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5313 bytes, 391 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Exiting application..
-WARNING: attempt to destroy widget 'widget18' two times
-WARNING: widget 'widget573' was not explicitly destroyed
-WARNING: widget 'widget1246' was not explicitly destroyed
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Documents/GitHub/oldabra1.4.2/CLIENTE/'
-== application started at Jun 15 2025 18:21:52
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5313 bytes, 391 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Exiting application..
-WARNING: attempt to destroy widget 'widget18' two times
-WARNING: widget 'widget573' was not explicitly destroyed
-WARNING: widget 'widget1246' was not explicitly destroyed
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Documents/GitHub/oldabra1.4.2/CLIENTE/'
-== application started at Jun 15 2025 19:21:44
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (8568 bytes, 2697 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Exiting application..
-WARNING: attempt to destroy widget 'widget18' two times
-WARNING: widget 'widget573' was not explicitly destroyed
-WARNING: widget 'widget1246' was not explicitly destroyed
-GPU ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
-OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
-[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
-Found work dir at 'C:/Users/Note/Documents/GitHub/oldabra1.4.2/CLIENTE/'
-== application started at Jun 15 2025 19:22:12
-Kosiarz Retro 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
-ERROR: Layour retro doesn't exist, using default
-Connecting to: 127.0.0.1:7171
-Login to 127.0.0.1:7172
-ERROR: ProtocolGame parse message exception (5632 bytes, 391 unread, last opcode is 0x78 (120), prev opcode is 0x78 (120)): unable to create item with invalid id 0
-Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1098)
-Exiting application..
-WARNING: attempt to destroy widget 'widget18' two times
-WARNING: widget 'widget573' was not explicitly destroyed
-WARNING: widget 'widget1246' was not explicitly destroyed
+WARNING: widget 'widget571' was not explicitly destroyed
+WARNING: widget 'widget1244' was not explicitly destroyed

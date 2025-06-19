@@ -2859,8 +2859,13 @@
 	<item id="8426" article="a" name="slotmachine coin" plural="slotmachine coins">
 	<attribute key="weight" value="10"/>
 	</item>
-	<item id="8351" article="a" name="premium coin" plural="premium coins">
-	<attribute key="weight" value="10"/>
+	<item id="24773" article="the" name="remains of Feroxa" />
+	<item id="8351" name="Premium Coins">
+		<attribute key="weight" value="0" />
+		<attribute key="description" value="Premium Coins are needed to shop exclusive products in the Store, including fabulous mounts, classy outfits, a Name Change or even Premium Time." />
+	</item>
+	<item id="8525" name="your store inbox">
+		<attribute key="containerSize" value="20" />
 	</item>
 	<item id="2161" article="a" name="strange talisman">
 		<attribute key="weight" value="290"/>
@@ -3618,7 +3623,7 @@
 		<attribute key="description" value="You see the engraving of a white raven on its surface."/>
 		<attribute key="weight" value="300"/>
 	</item>
-	<item id="5807" article="an" name="blessed ankh">
+	<item id="5807" article="an" name="ceremonial ankh">
 		<attribute key="description" value="You see the engraving of a white raven on its surface."/>
 		<attribute key="weight" value="300"/>
 	</item>
@@ -11986,7 +11991,7 @@
 		<attribute key="duration" value="60"/>
         <attribute key="corpseType" value="blood"/>
 	</item>	
-	<item id="4873" article="a" name="brooch">
+	<item id="4873" article="a" name="explorer brooch">
 		<attribute key="weight" value="90"/>
 	</item>
 	<item id="4874" article="a" name="dwarven pickaxe">
