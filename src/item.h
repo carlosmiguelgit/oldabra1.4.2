@@ -319,13 +319,13 @@ class ItemAttributes
 					}
 
 					case 4: { // bool
-						bool tmp;
-						if (!propStream.read<bool>(tmp)) {
-							return false;
-						}
-						value = tmp;
-						break;
+					bool tmp;
+					if (!propStream.read<bool>(tmp)) {
+						return false;
 					}
+					value = static_cast<VariantAttribute>(tmp); // solução
+					break;
+				}
 
 					default: {
 						value = boost::blank();
