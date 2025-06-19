@@ -1,4 +1,4 @@
-image: Visual Studio 2019
+image: Visual Studio 2022
 
 shallow_clone: true
 
@@ -19,22 +19,22 @@ only_commits:
     - appveyor.yml
 
 install:
-  - cmd : vcpkg install boost-iostreams:x64-windows
-  - cmd : vcpkg install boost-asio:x64-windows
-  - cmd : vcpkg install boost-system:x64-windows
-  - cmd : vcpkg install boost-filesystem:x64-windows
-  - cmd : vcpkg install boost-variant:x64-windows
-  - cmd : vcpkg install boost-lockfree:x64-windows
-  - cmd : vcpkg install cryptopp:x64-windows
-  - cmd : vcpkg install fmt:x64-windows
-  - cmd : vcpkg install luajit:x64-windows
-  - cmd : vcpkg install --recurse libmariadb:x64-windows
-  - cmd : vcpkg install pugixml:x64-windows
+  - cmd: vcpkg install boost-iostreams:x64-windows
+  - cmd: vcpkg install boost-asio:x64-windows
+  - cmd: vcpkg install boost-system:x64-windows
+  - cmd: vcpkg install boost-filesystem:x64-windows
+  - cmd: vcpkg install boost-variant:x64-windows
+  - cmd: vcpkg install boost-lockfree:x64-windows
+  - cmd: vcpkg install cryptopp:x64-windows
+  - cmd: vcpkg install fmt:x64-windows
+  - cmd: vcpkg install luajit:x64-windows
+  - cmd: vcpkg install --recurse libmariadb:x64-windows
+  - cmd: vcpkg install pugixml:x64-windows
 
 build:
   parallel: true
-  # MSBuild verbosity level
-  #verbosity: detailed
+  verbosity: minimal
+  project: vc17/themodernserver.sln
 
 cache:
   - c:\tools\vcpkg\installed\
