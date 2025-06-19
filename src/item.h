@@ -284,55 +284,55 @@ class ItemAttributes
 			}
 
 			bool unserialize(PropStream& propStream) {
-				// This is hard-coded so it's not general, depends on the position of the variants.
-				uint8_t pos;
-				if (!propStream.read<uint8_t>(pos)) {
-					return false;
-				}
+	// This is hard-coded so it's not general, depends on the position of the variants.
+	uint8_t pos;
+	if (!propStream.read<uint8_t>(pos)) {
+		return false;
+	}
 
-				switch (pos) {
-					case 1:  { // std::string
-						std::string tmp;
-						if (!propStream.readString(tmp)) {
-							return false;
-						}
-						value = tmp;
-						break;
-					}
+	switch (pos) {
+		case 1: { // std::string
+			std::string tmp;
+			if (!propStream.readString(tmp)) {
+				return false;
+			}
+			value = VariantAttribute(tmp);
+			break;
+		}
 
-					case 2: { // int64_t
-						int64_t tmp;
-						if (!propStream.read<int64_t>(tmp)) {
-							return false;
-						}
-						value = tmp;
-						break;
-					}
+		case 2: { // int64_t
+			int64_t tmp;
+			if (!propStream.read<int64_t>(tmp)) {
+				return false;
+			}
+			value = VariantAttribute(tmp);
+			break;
+		}
 
-					case 3: { // double
-						double tmp;
-						if (!propStream.read<double>(tmp)) {
-							return false;
-						}
-						value = tmp;
-						break;
-					}
+		case 3: { // double
+			double tmp;
+			if (!propStream.read<double>(tmp)) {
+				return false;
+			}
+			value = VariantAttribute(tmp);
+			break;
+		}
 
-					case 4: { // bool
-					bool tmp;
-					if (!propStream.read<bool>(tmp)) {
-						return false;
-					}
-					value = static_cast<VariantAttribute>(tmp); // solução
-					break;
-				}
+		case 4: { // bool
+			bool tmp;
+			if (!propStream.read<bool>(tmp)) {
+				return false;
+			}
+			value = VariantAttribute(tmp);
+			break;
+		}
 
-					default: {
-						value = boost::blank();
-						return false;
-					}
-				}
-				return true;
+		default: {
+			value = boost::blank();
+			return false;
+		}
+	}
+	return true;
 			}
 		};
 
