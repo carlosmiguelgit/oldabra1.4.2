@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<npc name="Outlier" script="outlier.lua" walkinterval="2000" floorchange="1">
-    <health now="100" max="100"/>
-    <look type="801" head="96" body="105" legs="105" feet="115" addons="3"/>
-    <parameters>
-        <parameter key="message_greet" value="Hello |PLAYERNAME| I change {Premium Coins} for {outfits}, say {trade}, Ola |PLAYERNAME| Eu troco {Premium Coins} por {outfits}, diga {trade}." />
-        <parameter key="module_keywords" value="1" />
-    </parameters>
-</npc>
